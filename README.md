@@ -26,24 +26,24 @@ There are 12 tasks to complete and 2 bonuses.
 Your goal is to meet at least 75% of these requirements to complete the assignment. But don't stop there! Shoot for 100%! 
 
 **Functionality:**
-- [ ] Your app should render as a greeting (perhaps, "Good Morning") in English. 
-- [ ] Beneath this greeting, there should be five buttons. 
-- [ ] Each button should correspond to a different language (perhaps, "Spanish", "Haitian Creole", and "Portuguese"). 
-- [ ] When a language button is clicked, the greeting above should be translated to the appropriate language.
-- [ ] Above your greeting, there should be two buttons to change the font size.
-- [ ] When the buttons are clicked, the greeting size should grow or shrink accordingly. 
+* <input type="checkbox" checked> Your app should render as a greeting (perhaps, "Good Morning") in English. 
+* <input type="checkbox" checked> Beneath this greeting, there should be five buttons. 
+* <input type="checkbox" checked> Each button should correspond to a different language (perhaps, "Spanish", "Haitian Creole", and "Portuguese"). 
+* <input type="checkbox" checked> When a language button is clicked, the greeting above should be translated to the appropriate language.
+* <input type="checkbox" checked> Above your greeting, there should be two buttons to change the font size.
+* <input type="checkbox" checked> When the buttons are clicked, the greeting size should grow or shrink accordingly. 
 
 **React Fundamentals**
-- [ ] Component names use PascalCase (`MyComponent` instead of `myComponent`)
-- [ ] Props are extracted in child components using destructuring
-- [ ] `useState` is used to manage state
+* <input type="checkbox" checked> Component names use PascalCase (`MyComponent` instead of `myComponent`)
+* <input type="checkbox" checked> Props are extracted in child components using destructuring
+* <input type="checkbox" checked> `useState` is used to manage state
 
 **Miscellaneous**
-- [ ] Used Vite to create the project
-- [ ] The size buttons, the greeting, and the language buttons should each be their own component for a total of 3 components (on top of the root `App`)
-- [ ] At no point did you ever use any vanilla DOM JS methods (e.g. `document.querySelector` or `document.createElement`)
-- [ ] Bonus: You have a `components` directory. Each component has its own file and is exported (1 export per file). The filename matches the name of the component being exported (`Header.jsx` exports a `Header` component).
-- [ ] Bonus: Your project has some extra CSS styling!
+* <input type="checkbox" checked> Used Vite to create the project
+* <input type="checkbox" checked> The size buttons, the greeting, and the language buttons should each be their own component for a total of 3 components (on top of the root `App`)
+* <input type="checkbox" checked> At no point did you ever use any vanilla DOM JS methods (e.g. `document.querySelector` or `document.createElement`)
+* <input type="checkbox" checked> Bonus: You have a `components` directory. Each component has its own file and is exported (1 export per file). The filename matches the name of the component being exported (`Header.jsx` exports a `Header` component).
+* <input type="checkbox" checked> Bonus: Your project has some extra CSS styling!
 
 ## Set Up
 It's highly recommended you use the scaffolding tool [Vite](https://vitejs.dev/guide/) to create your starter code. You can run these commands to get started:
